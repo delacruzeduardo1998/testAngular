@@ -8,5 +8,5 @@ app.get('/*',function(req,res){
     res.sendFile(path.join(__dirname+'/dist/test-angular/index.html'));
 });
 
-app.listen(process.env.PORT || 1234);
+app.listen(process.env.PORT || 8080);
 
